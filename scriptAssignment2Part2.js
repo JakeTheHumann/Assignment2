@@ -178,24 +178,64 @@
 //} else {
 //    alert('Whatever, you weren’t very good at this game anyway!')
 //}
-
+//
 //Part 5 - The “Coin Flip” Game
-
-// 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+//var icoinFlip = Math.round(Math.random());
+//var bChoice = prompt('Choose heads or tails', 'heads');
+//if (bChoice == 'heads' && icoinFlip == false) {
+//    alert('The flip was heads and you chose heads...you win!')
+//} else if (bChoice == 'tails' && icoinFlip == false) {
+//    alert('The flip was heads but you chose tails...you lose!')
+//} else if (bChoice == 'heads' && icoinFlip == true) {
+//    alert('The flip was tails but you chose heads...you lose!')
+//} else if (bChoice == 'tails' && icoinFlip == true) {
+//    alert('The flip was tails and you chose tails...you win!')
+//} else {
+//    alert ('Wrong input. Please, type in heads or tails next time.')
+//}
+//
+////Part 6 - The “Coin Flip” Game Redux
+//var iCoinFlip;
+//for (var i = 1; i <= 10; i++) {
+//    var iCoinFlip = Math.round(Math.random());
+//    if (iCoinFlip == 0) {
+//    console.log('Heads');
+//    } else if (iCoinFlip == 1) {
+//    console.log('Tails');
+//    }
+//}
+//
+////Part 7 - The “Coin Flip Streak” Game
+//var iCoinFlip;
+//var i = 0;
+//do { 
+//	i += 1;
+//    var iCoinFlip = Math.round(Math.random());
+//    if (iCoinFlip == 0) {
+//    console.log('Heads');
+//    } else if (iCoinFlip == 1) {
+//    console.log('Tails');
+//    }
+//} while (iCoinFlip == 0);
+//
+////Part 8 – Looping a Triangle
+//
+//var i = 0;
+//var sHash = '';
+//do { 
+//	i += 1;
+//    var sHash = sHash + '#';
+//    
+//    console.log(sHash);
+//} while (i < 7);
+//
+////Part 9 – Odd or Even?
+//
+//function oddoreven(iNum) {
+//    if (iNum%2==0) {return 'even'}
+//    else {return 'odd'}
+//}
+//for (var i = 1; i <= 15; i++) {
+//	console.log(i + ' is ' + oddoreven(i));
+//}
